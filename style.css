@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #0072ff, #00c6ff);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family:sans-serif;
+}
+img{
+    height: 240px;
+    width: 400px;
+    border: solid 1px grey;
+    border: 20px 2px 20px 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header {
+    background-color: rgb(54, 59, 84) ; /* Header background color */
+    padding: 20px 0; /* Top and bottom padding */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Navigation Styles */
+.navbar {
+    margin-bottom: 0; /* Remove the default margin */
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(54, 59, 84); /* Hamburger menu icon color */
+}
+
+.navbar-nav {
+    margin-right: 0; /* Remove the default right margin */
+}
+
+.nav-link {
+    color: #fff; /* Navigation link color */
+    font-weight: bold; /* Navigation link font weight */
+    margin: 0 10px; /* Space between navigation links */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space between sections */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333; /* Table header background color */
+    color: #fff; /* Table header text color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+/* Color Switch Styles (you can customize these styles) */
+.color-switch-label {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 26px;
+    background-color: #ccc;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+
+.home{
+    text-align: center;
+}
+/* Project styling */
+
+.project:hover a {
+    transform: scale(1.05); /* Add a scaling effect on hover */
+}
+
+.project a {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+#colorSwitch:checked + .color-switch-label {
+    background-color: #007bff; /* Change this to your desired alternate color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 20px 0;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icons-container {
+    flex-direction: row;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition for the transform property */
+}
+
+.icon a:hover {
+    color: white;
+    transform: translateY(-5px); /* Move the entire icon and text 5 pixels up when hovering */
+}
+
+.icon a:hover svg.bi-linkedin {
+    fill: #0077B5; /* Change the color to your desired hover color */
+}
+
+.icon a:hover svg.bi-github {
+    fill: #0077B5; /* Change the color to your desired hover color */
+}
+
+.icon a:hover svg.bi-instagram {
+    fill: #ad3681; /* Change the color to your desired hover color */
+}
+
+.icon a:hover svg.bi-whatsapp {
+    fill: #4dbc53; /* Change the color to your desired hover color */
+}
+
+.icon a:hover svg.bi-twitter {
+    fill: rgb(165, 158, 158); /* Change the color to your desired hover color */
+}
